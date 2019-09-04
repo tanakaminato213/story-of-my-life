@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+.message-main{
+  background-image: image-url("ec_straight_road001.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  // overflow: scroll;
+}
