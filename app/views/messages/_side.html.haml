@@ -1,0 +1,8 @@
+.message-side
+  .side-text
+    .side-text__new
+      = link_to "New group", "groups/new"
+    .side-text__edit
+      = link_to "Edit group", ""
+    .side-text__out
+      = link_to "Log out", destroy_user_session_path, method: :delete
