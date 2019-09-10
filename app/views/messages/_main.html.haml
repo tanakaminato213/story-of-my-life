@@ -1,24 +1,17 @@
 - if user_signed_in?
   / ユーザーがログインしているか調べる
   / ユーザーがログインしていた時の処理
+  = render 'messages/header'
+  = render 'messages/side'
   .message-main
-    = render 'messages/side'
   .message-main__header
     -# = @group.name
   .message-main__header
     
     .messages
 
-    .form
--#       = form_for [@group, @message] do |f|
--#         = f.text_field :content, class: 'form__message', placeholder: 'type a message'
--#         .form__mask
--#           = f.label :image, class: 'form__mask__image' do
--#             = fa_icon 'picture-o', class: 'icon'
--#             = f.file_field :image, class: 'hidden'
--#             %input.hidden{type: 'file'}
--#         %input.form__submit{type: 'submit', value: 'Send'}
--# - else
+  = render 'messages/footer'
+- else
   .top-page
     %h1 Original story
     .top-page__text

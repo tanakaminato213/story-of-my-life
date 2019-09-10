@@ -2,6 +2,7 @@
   background-color: black;
   box-sizing: border-box;
   height: 100px;
+  width: calc(100vw - 200px);
   padding: 20px 50px 20px 40px;
   &__message {
     padding: 0 40px 0 10px;
@@ -11,17 +12,14 @@
     width: calc(100% - 150px);
     display: table;
 }
-  &__icon{
-    float:left;
-  }
   &__submit {
-    background-color:black;
+    background-color:white;
     border: none;
-    color: white;
+    width: 100px;
+    color: black;
     font-size: 16px;
     height: 50px;
-    margin-left: 15px;
-    padding: 0 30px;
+    margin-left: 5px;
     text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
     0 15px 25px rgba(0, 0, 0, 0.3),
@@ -31,4 +29,19 @@
     0 3px 4px rgba(255, 255, 255, 0.2),
     0 0 20px #ffffff73;
   }
+  label > input {
+    display:none;
+    margin-left: 30px;
+    }
+    label {
+    background-color: aqua;
+    margin-left: 5px;
+    padding: 14px;
+    float: left;;
+    }
+    label:before{
+      font-family: FontAwesome Free;
+      font-weight: 200px;
+      content: "\f002";
+    }
 }

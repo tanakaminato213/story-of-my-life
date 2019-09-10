@@ -1,14 +1,8 @@
 .message-side
   .side-text
-    .side-text__group
-    - current_user.groups.each do |group|
-      = link_to '#' do
-        .side-text__group__name
-          Group name
-        .side-text__group__nm
-          = "#{group.name}"
-        .side-text__group__message
-          NO message
+    .side-text__name
+      %h2 My name
+      =current_user.name 
     .side-text__new
       = link_to "New group",  new_group_path
     .side-text__edit

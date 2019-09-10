@@ -1,4 +1,5 @@
 .form
   %input.form__message{placeholder: "Type a message", type: "text"}
-  %input.form__icon{type: 'file', value: 'Send'}
+  %label{class: "file_upload"}
+    %input#file_upload{type: "file", value: "Send"}
   %input.form__submit{type: 'submit', value: 'Send'}
