@@ -5,11 +5,9 @@
   = render 'messages/side'
   .message-main
   .message-main__header
-    -# = @group.name
-  .message-main__header
-    
-    .messages
-
+  
+  .messages
+    -# = render @message
   = render 'messages/footer'
 - else
   .top-page

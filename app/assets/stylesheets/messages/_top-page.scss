@@ -11,6 +11,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: calc(100% - 200px);
   border-top: 100px;
   overflow: scroll;
+  position: fixed;
 }
