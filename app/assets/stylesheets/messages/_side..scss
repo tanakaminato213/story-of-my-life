@@ -2,25 +2,33 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+a:link{
+  color: white;
+}
 a:visited{
   color: white;
 }
-
 .message-side{
   width: 200px;
   height: 100vh;
   position: fixed;
-  bottom: 0; /* 基準の位置を画面の一番下に指定する */
-  right: 0; /* 基準の位置を画面の一番右に指定する */
+  bottom: 0;  
+  right: 0; 
   background-color: black;
   float: right;
   word-wrap: break-word;
+  a:visited{
+    color: white;
+  }
   .side-text{
     margin-top: 50px;
     color: white;
     height: 100vh;
     padding: 0 30px;
     white-space: nowrap;
+    h2:visited{
+      color: white;
+    }
     text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
     0 15px 25px rgba(0, 0, 0, 0.3),
@@ -33,6 +41,9 @@ a:visited{
       color: white;
       font-size: 30px;
       word-wrap:break-word;
+      h2:visited{
+        color: white;
+      }
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
       0 15px 25px rgba(0, 0, 0, 0.3),
@@ -54,6 +65,9 @@ a:visited{
       0 5px 10px rgba(0, 0, 0, 0.3),
       0 3px 4px rgba(255, 255, 255, 0.2),
       0 0 20px #ffffff73;
+      a:hover{
+        color:blue;
+      }
     }
     &__user{
       margin-top: 50px;
@@ -67,8 +81,12 @@ a:visited{
       0 5px 10px rgba(0, 0, 0, 0.3),
       0 3px 4px rgba(255, 255, 255, 0.2),
       0 0 20px #ffffff73;
+      a:hover{
+        color:red;
+      }
     }
     &__edit{
+      margin-top: 50px;
       color: white;
       font-size: 30px;
       text-shadow:
@@ -79,6 +97,9 @@ a:visited{
       0 5px 10px rgba(0, 0, 0, 0.3),
       0 3px 4px rgba(255, 255, 255, 0.2),
       0 0 20px #ffffff73;
+      a:hover{
+        color:yellow;
+      }
     }
     &__out{
       margin-top: 50px;
@@ -92,6 +113,9 @@ a:visited{
       0 5px 10px rgba(0, 0, 0, 0.3),
       0 3px 4px rgba(255, 255, 255, 0.2),
       0 0 20px #ffffff73;
+      a:hover{
+        color:green;
+      }
     }
   }
 }
