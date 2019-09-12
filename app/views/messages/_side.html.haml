@@ -1,8 +1,13 @@
 .message-side
   .side-text
+    .side-text__name
+      %h2 My name
+      =current_user.name 
+    .side-text__user
+      = link_to "Edit user", edit_user_path(current_user)
     .side-text__new
-      = link_to "New group", "groups/new"
+      = link_to "New group",  new_group_path
     .side-text__edit
-      = link_to "Edit group", ""
+      = link_to "Edit group", edit_group_path(current_user)
     .side-text__out
       = link_to "Log out", destroy_user_session_path, method: :delete

@@ -10,6 +10,14 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-
+  height:auto;
+  float: left;
+  width: 100%;
+  .messages{
+      height: calc(100vh - 100px);
+      position: relative;
+      top:100px;
+      padding: 30px 40px;
+      overflow: scroll;
+  }
 }
