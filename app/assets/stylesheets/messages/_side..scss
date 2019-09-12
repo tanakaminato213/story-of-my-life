@@ -8,15 +8,17 @@ a:visited{
 
 .message-side{
   width: 200px;
+  height: 100vh;
+  position: fixed;
+  bottom: 0; /* 基準の位置を画面の一番下に指定する */
+  right: 0; /* 基準の位置を画面の一番右に指定する */
   background-color: black;
-  height: calc(100vw - 651px);
-  margin-top: 100px;
   float: right;
   word-wrap: break-word;
   .side-text{
     margin-top: 50px;
     color: white;
-    height: 50px;
+    height: 100vh;
     padding: 0 30px;
     white-space: nowrap;
     text-shadow:
@@ -43,7 +45,6 @@ a:visited{
     &__new{
       margin-top: 50px;
       color: white;
-      height: 50px;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
@@ -57,7 +58,6 @@ a:visited{
     &__user{
       margin-top: 50px;
       color: white;
-      height: 50px;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
@@ -69,9 +69,7 @@ a:visited{
       0 0 20px #ffffff73;
     }
     &__edit{
-      margin-top: 50px;
       color: white;
-      height: 50px;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
@@ -85,7 +83,6 @@ a:visited{
     &__out{
       margin-top: 50px;
       color: white;
-      height: 50px;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),

@@ -1,9 +1,13 @@
 .form {
   background-color: black;
+  bottom: 0;
+  // position: absolute;
   box-sizing: border-box;
-  height: 100px;
   width: calc(100vw - 200px);
   padding: 20px 50px 20px 40px;
+  border-top: 10px; 
+  height:100px;
+  position: fixed;
   &__message {
     padding: 0 40px 0 10px;
     border: none;
@@ -44,4 +48,4 @@
       font-weight: 200px;
       content: "\f002";
     }
-}
+  }
