@@ -1,6 +1,6 @@
 .up-main
   %h2 Sign up
-  = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+  = form_with model: @user, local: true do |f|
     = devise_error_messages!
     .field
       = f.label :email
@@ -10,6 +10,10 @@
       = f.label :name
       %br/
       = f.text_field :name
+    .up-main__image
+      = f.label :image
+      %br/
+      = f.file_field :image
     .up-main__field
       = f.label :password
       - if @minimum_password_length
