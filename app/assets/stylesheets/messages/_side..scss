@@ -3,10 +3,10 @@
   text-decoration: none;
 }
 a:link{
-  color: white;
+  color: black;
 }
 a:visited{
-  color: white;
+  color: black;
 }
 .message-side{
   width: 200px;
@@ -14,20 +14,23 @@ a:visited{
   position: fixed;
   bottom: 0;  
   right: 0; 
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.856);
   float: right;
   word-wrap: break-word;
+  z-index:3;
   a:visited{
-    color: white;
+    color: black;
   }
   .side-text{
+    z-index:3;
     margin-top: 50px;
-    color: white;
+    color: black;
     height: 100vh;
     padding: 0 30px;
     white-space: nowrap;
+    margin-top:150px;
     h2:visited{
-      color: white;
+      color: black;
     }
     text-shadow:
     0 0 2px rgba(204, 208, 212,0.9),
@@ -38,7 +41,7 @@ a:visited{
     0 3px 4px rgba(255, 255, 255, 0.2),
     0 0 20px #ffffff73;
     &__name{
-      color: white;
+      color: black;
       font-size: 30px;
       word-wrap:break-word;
       h2:visited{
@@ -55,7 +58,7 @@ a:visited{
     }
     &__new{
       margin-top: 50px;
-      color: white;
+      color: black;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
@@ -71,7 +74,7 @@ a:visited{
     }
     &__user{
       margin-top: 50px;
-      color: white;
+      color: black;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
@@ -103,7 +106,7 @@ a:visited{
     }
     &__out{
       margin-top: 50px;
-      color: white;
+      color: black;
       font-size: 30px;
       text-shadow:
       0 0 2px rgba(204, 208, 212,0.9),
