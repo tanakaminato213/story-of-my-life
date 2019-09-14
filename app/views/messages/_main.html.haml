@@ -1,10 +1,14 @@
 - if user_signed_in?
+  / ユーザーがログインしているか調べる
+  / ユーザーがログインしていた時の処理
   = render 'messages/header'
+  = render 'messages/side'
   .message-main
-    = render 'messages/side'
-    .messages
-      -# = render @messages
-  -# = render 'messages/footer'
+  .message-main__header
+  
+  .messages
+    -# = render @message
+  = render 'messages/footer'
 - else
   .top-page
     %h1 Original story
