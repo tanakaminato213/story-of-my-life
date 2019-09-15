@@ -27,8 +27,6 @@ $(document).on('turbolinks:load', function(){
     // e.preventDefault();
     //フォームの送信の動きを止めている
 
-    e.preventDefault();
-
     var formData = new FormData(this);
     //送信された内容を取得している
 
