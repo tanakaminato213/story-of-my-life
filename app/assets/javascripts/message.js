@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load', function(){
+$(document).on('turbolinks:load', function() {
   function buildHTML(message){
     image = (message.image.url) ? image= `<img src ="${message.image.url}"></img>` : '';
     // if文を三項演算子で記述している。
@@ -16,15 +16,14 @@ $(document).on('turbolinks:load', function(){
                 ${message.data}
                 </div>
                 </div>
-                </div>
-                </div>
-                </div>
                 ${image}
                 `
                 return html;
   }
   $("#new_message").on("submit", function(e){
-    // e.preventDefault();
+
+    
+    e.preventDefault();
     //フォームの送信の動きを止めている
 
     var formData = new FormData(this);
@@ -49,7 +48,6 @@ $(document).on('turbolinks:load', function(){
     //ajaxのリクエストがうまくいけば以下の処理が動く
 
     var html = buildHTML(data);
-    
     $('.messages').append(html);
     //('.messages')に(html)を追加している。
 
@@ -65,7 +63,6 @@ $(document).on('turbolinks:load', function(){
     })
     .fail(function(){
       //ajaxのリクエストが失敗した時は以下の処理が動く。
-
         alert('メッセージを入力して下さい');
       })
     });
@@ -74,7 +71,7 @@ $(document).on('turbolinks:load', function(){
     var reloadMessages = function() {
 
 
-      if(window.location.href.match(/\/groups\/\d{1,4}\/messages/)){
+      if(window.location.href.match(/\/groups\/\d+\/messages/)){
 
       
 
