@@ -1,9 +1,9 @@
 .message-header{
   background-color: rgba(255, 255, 255, 0.856);
-  width: 100%;
+  width: 100vw;
   height:100px;
   white-space:nowrap;
-  overflow:scroll;
+  overflow-x: scroll;
   position: fixed;
   position: absolute;
   z-index: 2;
@@ -25,6 +25,7 @@
   color: black;
   padding: 30px,0;
   display:table;
+  
   &__box{
     display: table-cell;
     padding-left: 30px;
