@@ -3,8 +3,7 @@ $(document).on('turbolinks:load', function() {
     image = (message.image.url) ? image= `<img src ="${message.image.url}"></img>` : '';
     // if文を三項演算子で記述している。
 
-    var html =` <div class='messages'>
-                <div class='message' data-id=${message.id}>
+    var html =` <div class='message' data-id=${message.id}>
                 <div class='message-user'>
                 ${message.user_name}
                 </div>
