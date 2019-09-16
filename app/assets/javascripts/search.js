@@ -79,7 +79,6 @@ $(document).on('turbolinks:load',function() {
      
       //フォームの追加が押されたら、以下の処理が動く
 
-console.log("function")
 
       var user_name = $(this).data('user-name');
       var user_id = $(this).data('user-id');
