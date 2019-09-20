@@ -50,6 +50,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rspec'
   gem 'sqlite3'
+  gem 'capistrano'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
 end
 
 group :test do
@@ -75,3 +79,4 @@ gem 'pry-rails'
 gem "font-awesome-rails"
 gem 'jquery-rails'
 gem 'fog-aws'
+gem 'dotenv-rails'

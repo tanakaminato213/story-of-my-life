@@ -26,6 +26,7 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/secrets.yml
+/.env
 vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/flash.rb
 vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/force_ssl.rb
 vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/head.rb
