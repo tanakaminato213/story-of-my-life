@@ -1,0 +1,15 @@
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/tanakaminato/.rbenv/versions/2.5.1/bin/ruby -I /Users/tanakaminato/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190920-51120-1o28cm3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190920-51120-1mj83oj/bootsnap
