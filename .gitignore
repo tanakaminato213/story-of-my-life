@@ -26,3 +26,17 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/secrets.yml
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/flash.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/force_ssl.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/head.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/helpers.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/http_authentication.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/implicit_render.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/live.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/mime_responds.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/parameter_encoding.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/params_wrapper.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/redirecting.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/renderers.rb
+vendor/bundle/ruby/2.5.0/gems/actionpack-5.2.3/lib/action_controller/metal/rendering.rb
