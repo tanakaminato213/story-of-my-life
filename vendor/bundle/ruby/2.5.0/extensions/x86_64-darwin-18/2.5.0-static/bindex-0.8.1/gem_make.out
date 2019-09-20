@@ -1,0 +1,15 @@
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/tanakaminato/.rbenv/versions/2.5.1/bin/ruby -I /Users/tanakaminato/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190920-51120-ywqju4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/tanakaminato/story-of-my-life/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190920-51120-1i2zkyn/skiptrace/internal
