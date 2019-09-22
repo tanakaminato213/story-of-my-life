@@ -80,3 +80,4 @@ gem "font-awesome-rails"
 gem 'jquery-rails'
 gem 'fog-aws'
 gem 'dotenv-rails'
+gem 'fog'
